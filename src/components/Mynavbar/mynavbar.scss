@@ -1,0 +1,72 @@
+$gray: rgba(155, 152, 152, 0.616);
+$black: rgba(3, 3, 3, 0.726);
+
+.navbar {
+    border-bottom: 1px solid rgba(124, 123, 123, 0.158);
+    background-color: white;
+    transition: all 0.2s linear;
+
+    .logo {
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        .gray {
+            color: $gray;
+        }
+    }
+
+    .nav-link {
+        margin-left: 2%;
+        color: black;
+        font-weight: 400;
+    }
+
+    .pbtn {
+        padding: 7px 21px;
+        border-radius: 30px;
+        border: 2px solid $gray !important;
+        background-color: transparent;
+
+        svg{
+            margin-left: 9px;
+            color: rgba(117, 117, 117, 0.788);
+        }
+    }
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler-icon {
+    outline: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.flexed{
+    background-color:white !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 4;
+}
+
+.online{
+    position: relative;
+
+    &::after{
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background-color: #00FF00;
+        border-radius: 100%;
+        top: -7%;
+        right: 0%;
+    }
+}
+
+

@@ -1,0 +1,113 @@
+.footerbx {
+  padding-top: 5%;
+  background: radial-gradient(circle, rgb(253, 255, 237) 0%, rgb(255, 253, 251) 100%);
+}
+.footerbx .footertxt {
+  text-align: center;
+}
+.footerbx .footertxt h6 {
+  font-size: 3.7rem;
+  font-weight: 600;
+  line-height: 74px;
+}
+.footerbx .footertxt .buttonsflx {
+  margin-top: 3%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.footerbx .footertxt .buttonsflx .pbtn {
+  padding: 10px 21px;
+  border-radius: 30px;
+  background-color: transparent;
+}
+.footerbx .footertxt .buttonsflx .pbtn svg {
+  margin-left: 9px;
+  color: white;
+}
+.footerbx .footertxt .buttonsflx .pbtn:nth-child(1) {
+  background: linear-gradient(104deg, rgba(172, 53, 223, 0.877) 0%, rgba(212, 46, 52, 0.904) 45%, rgb(255, 135, 61) 100%);
+  border: none;
+  color: white;
+}
+.footerbx .footertxt .buttonsflx .pbtn:nth-child(2) {
+  border: 2px solid rgba(155, 152, 152, 0.616) !important;
+}
+.footerbx .footerbutm {
+  border-top: 1px solid rgba(148, 145, 145, 0.301);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footerbx .footerbutm .footrebutmone a {
+  padding: 4px 10px;
+  margin: 4px;
+  border-radius: 100%;
+  background: rgb(56, 55, 55);
+  color: white;
+  font-size: 18px;
+  width: 37px;
+  display: inline-block;
+  height: 37px;
+}
+.footerbx .footerbutm .footrebutmone a:nth-child(1) {
+  background: black;
+}
+.footerbx .footerbutm .footrebutmone a:nth-child(2) {
+  background: black;
+}
+.footerbx .footerbutm .footrebutmtwo a {
+  margin: 4px;
+  padding: 4px 7px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 508px) {
+  .footerbx .footertxt h6 {
+    font-size: 2.7rem;
+    font-weight: 600;
+    line-height: 58px;
+  }
+}
+@media only screen and (max-width: 756px) {
+  .footerbx .footerbutm {
+    flex-direction: column;
+  }
+  .footrebutmtwo {
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 408px) {
+  .footerbx .footertxt .buttonsflx {
+    padding-bottom: 7%;
+  }
+  .footrebutmtwo {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 368px) {
+  .footerbx .footertxt h6 {
+    font-size: 2.3rem;
+    line-height: 51px;
+  }
+}
+@media only screen and (max-width: 364px) {
+  .footerbx .footertxt h6 {
+    font-size: 2.4rem;
+  }
+}
+@media only screen and (max-width: 332px) {
+  .footerbx .footertxt h6 {
+    font-size: 2.2rem;
+    line-height: 48px;
+  }
+}/*# sourceMappingURL=Footer.css.map */
