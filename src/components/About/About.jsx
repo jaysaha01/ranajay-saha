@@ -6,6 +6,7 @@ import './About.css'
 import Aboutimg from '../../assets/aboutimg.jpg'
 import { FaArrowRight } from "react-icons/fa6";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import resume from '../../assets/Ranajay Saha.pdf'
 
 const About = () => {
     return (
@@ -30,7 +31,7 @@ const About = () => {
 
                         <div className="buttonsflx">
 
-                        <a href="https://wa.me/+919804771533"><button className='pbtn'>Say Hellow <FaArrowRight /></button></a>
+                        <a href={resume} target='-blank'><button className='pbtn'>My Resume<FaArrowRight /></button></a>
                         <button className='pbtn'><AnchorLink href='#work'>My Portfolio</AnchorLink></button>
 
                         </div>
