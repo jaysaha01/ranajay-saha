@@ -5,10 +5,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter Tight", sans-serif;
+
 }
+
+
 
 .pbtn a{
     color: black;
     text-decoration: none;
+}
+
+.cover{
+    overflow: hidden;
 }
 

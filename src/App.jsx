@@ -17,12 +17,14 @@ function App() {
   
   return (
     <>
+    <div className="cover">
     <Mynavbar/>
     <Banner/>
     <About/>
     <Skillsection/>
     <Projectsection/>
     <Footer/>
+    </div>
     </>
   )
 }

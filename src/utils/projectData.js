@@ -5,6 +5,7 @@ import niavara from '../assets/niavara.png'
 import newniavara from '../assets/newnia.png'
 import marko from '../assets/markothumb.png'
 import ayelet from '../assets/ayelet.png'
+import gitafix from '../assets/gitafix.png'
 
 let projects = [
     {
@@ -37,6 +38,13 @@ let projects = [
     },
     {
         id:5,
+        categroy:"Frontend Development",
+        name:"Getafix",
+        link:"https://jaysaha01.github.io/getafix-solutions/",
+        thumbnil:gitafix,
+    },
+    {
+        id:6,
         categroy:"Frontend Development",
         name:"Niavara",
         link:"https://democloud.in/niavara_site/",

@@ -22,20 +22,20 @@ const Banner = () => {
                     <Row className='align-items-center'>
                         <Col md={6}><div className="bannerleft">
 
-                            <div className="socilamedia" data-aos="fade-left" data-aos-duration="2000">
+                            <div className="socilamedia" data-aos="fade-up" data-aos-duration="2000">
                                 <FaGithub />
                                 <FaLinkedinIn />
                                 <FaFacebook />
                             </div>
 
-                            <div className="headingline" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000">
+                            <div className="headingline" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000">
                                 <h1>
                                 👋Hey there,<br />
                                 It's Ranajay Saha.
                                 </h1>
                                 
                             </div>
-                            <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="2000">A passionate UI and Front-End Developer based In Kolkata, India</p>
+                            <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="2000">A passionate UI and Front-End Developer based In Kolkata, India</p>
                             <div className="buttonsflx">
                                 
                             <a href="https://wa.me/+919804771533"><button className='pbtn'>Say Hellow <FaArrowRight /></button></a>

@@ -5,6 +5,7 @@ $black: rgba(3, 3, 3, 0.726);
     border-bottom: 1px solid rgba(124, 123, 123, 0.158);
     background-color: white;
     transition: all 0.2s linear;
+    overflow: hidden !important;
 
     .logo {
         font-weight: 700;
